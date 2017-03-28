@@ -1,0 +1,173 @@
+﻿@model IEnumerable<jQuery_CRUD.DAL.User>
+
+@{
+    ViewBag.Title = "Index";
+}
+<script src="~/Scripts/jquery-1.7.1.min.js"></script>
+<script src="~/Scripts/jquery-ui-1.8.20.min.js"></script>
+<link href="~/Content/themes/base/jquery-ui.css" rel="stylesheet" />
+<script>
+    $(document).ready(function () {
+        var url = "";
+        var Title = "";
+        $("#dialogCreate").dialog({
+            width: 400,
+            modal: true,
+            autoOpen: false,
+            open: function () {
+                $(".ui-dialog-titlebar-close").remove();
+                $(".ui-dialog-title").html(Title);
+                // $(".ui-dialog-titlebar").removeClass("ui-widget-header");
+                $(this).load(url);
+            },
+        });
+
+        $("#dialogConfirm").dialog({
+            modal: true,
+            autoOpen: false,
+            open: function () {
+                $(".ui-dialog-title").html("Confirm");
+
+            },
+            buttons: {
+                Cancel: function () { $(this).dialog("close"); },
+                Ok: function () {
+                    window.location.href = url;
+                }
+            },
+        });
+
+        $("#dialogAlert").dialog({
+            modal: true,
+            autoOpen: false,
+            open: function () {
+                $(".ui-dialog-title").html("Alert");
+
+            },
+            buttons: {
+                Cancel: function () { $(this).dialog("close"); },
+                Ok: function () {
+                    $(this).dialog("close");
+                }
+            },
+        });
+
+        $("#dialogDetails").dialog({
+            title: "User Details",
+            modal: true,
+            autoOpen: false,
+            open: function () {
+                $(".ui-dialog-titlebar-close").hide();
+                $(".ui-dialog-title").html("Details");
+                $(this).load(url);
+            },
+            buttons: {
+                Cancel: function () { $(this).dialog("close"); },
+                Ok: function () {
+                    $(this).dialog("close");
+                }
+            },
+        });
+
+        if ('@TempData["Message"]' != "") {
+            $("#dialogAlert").dialog("open");
+        }
+
+
+        $("#btnCreate").click(function (event) {
+            event.preventDefault();
+            url = $(this).attr("href");
+            Title = "Create User";
+            $("#dialogCreate").dialog("open");
+        });
+
+        $(".delete").live("click", function (event) {
+            event.preventDefault();
+            url = $(this).attr("href");
+            $("#dialogConfirm").dialog("open");
+        });
+
+        $(".details").live("click", function (event) {
+            event.preventDefault();
+            url = $(this).attr("href");
+            $("#dialogDetails").dialog("open");
+        });
+
+
+        $(".edit").live("click", function (event) {
+            event.preventDefault();
+            url = $(this).attr("href");
+            Title = "Edit User";
+            $("#dialogCreate").dialog("open");
+        });
+
+
+        $("#btnCancel").live("click", function () {
+            $("#dialogCreate").dialog("close");
+        });
+
+
+    });
+</script>
+
+
+<div id="dialogAlert">
+    <p>@TempData["Message"]
+    </p>
+</div>
+<div id="dialogConfirm">
+    <p>
+        Are you sure to delete?
+    </p>
+</div>
+
+<div id="dialogCreate">
+</div>
+
+<div id="dialogDetails">
+</div>
+
+<p>
+    @Html.ActionLink("Create New", "Create", null, new { id = "btnCreate" })
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.UserId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContactNo)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+             <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactNo)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.UserId }, new { @class = "edit" }) |
+            @Html.ActionLink("Details", "Details", new { id = item.UserId }, new { @class = "details" }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.UserId }, new { @class = "delete" })
+            </td>
+        </tr>
+    }
+
+</table>

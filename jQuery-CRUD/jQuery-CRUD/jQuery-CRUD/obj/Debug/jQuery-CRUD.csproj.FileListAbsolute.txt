@@ -1,0 +1,66 @@
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\jQuery-CRUD.dll
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\jQuery-CRUD.pdb
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\Antlr3.Runtime.dll
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\EntityFramework.dll
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\Microsoft.Web.Infrastructure.dll
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\Newtonsoft.Json.dll
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\System.Net.Http.Formatting.dll
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\System.Web.Http.dll
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\System.Web.Http.WebHost.dll
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\System.Web.Mvc.dll
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\System.Web.Optimization.dll
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\System.Web.Providers.dll
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\System.Web.Razor.dll
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\System.Web.WebPages.Deployment.dll
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\System.Web.WebPages.dll
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\System.Web.WebPages.Razor.dll
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\WebGrease.dll
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\EntityFramework.xml
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\Newtonsoft.Json.xml
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\System.Net.Http.Formatting.xml
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\System.Web.Http.xml
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\System.Web.Http.WebHost.xml
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\System.Web.Mvc.xml
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\System.Web.Razor.xml
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\System.Web.WebPages.xml
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\System.Web.WebPages.Deployment.xml
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\bin\System.Web.WebPages.Razor.xml
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\obj\Debug\jQuery-CRUD.csprojResolveAssemblyReference.cache
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\obj\Debug\jQuery-CRUD.dll
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\obj\Debug\jQuery-CRUD.pdb
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\obj\Debug\jQuery_CRUD.Migrations.initial.resources
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\obj\Debug\jQuery-CRUD.csproj.GenerateResource.Cache
+F:\Test Demo\jQuery-CRUD\jQuery-CRUD\obj\Debug\jQuery_CRUD.Migrations.update1.resources
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\jQuery-CRUD.dll
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\jQuery-CRUD.pdb
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\Antlr3.Runtime.dll
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\EntityFramework.dll
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\Microsoft.Web.Infrastructure.dll
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\Newtonsoft.Json.dll
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\System.Net.Http.Formatting.dll
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\System.Web.Http.dll
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\System.Web.Http.WebHost.dll
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\System.Web.Mvc.dll
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\System.Web.Optimization.dll
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\System.Web.Providers.dll
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\System.Web.Razor.dll
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\System.Web.WebPages.Deployment.dll
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\System.Web.WebPages.dll
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\System.Web.WebPages.Razor.dll
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\WebGrease.dll
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\EntityFramework.xml
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\Newtonsoft.Json.xml
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\System.Net.Http.Formatting.xml
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\System.Web.Http.xml
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\System.Web.Http.WebHost.xml
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\System.Web.Mvc.xml
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\System.Web.Razor.xml
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\System.Web.WebPages.xml
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\System.Web.WebPages.Deployment.xml
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\bin\System.Web.WebPages.Razor.xml
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\obj\Debug\jQuery-CRUD.csprojResolveAssemblyReference.cache
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\obj\Debug\jQuery_CRUD.Migrations.initial.resources
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\obj\Debug\jQuery_CRUD.Migrations.update1.resources
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\obj\Debug\jQuery-CRUD.csproj.GenerateResource.Cache
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\obj\Debug\jQuery-CRUD.dll
+C:\Personal\DOT NET\C# Projects\jQuery-CRUD\jQuery-CRUD\jQuery-CRUD\obj\Debug\jQuery-CRUD.pdb

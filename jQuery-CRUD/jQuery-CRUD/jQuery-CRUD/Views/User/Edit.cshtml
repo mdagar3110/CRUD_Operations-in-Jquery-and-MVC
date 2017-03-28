@@ -1,0 +1,45 @@
+﻿@model jQuery_CRUD.DAL.User
+
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+
+    
+
+    @Html.HiddenFor(model => model.UserId)
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.Name)
+    </div>
+    <div class="editor-field">
+        @Html.EditorFor(model => model.Name)
+        @Html.ValidationMessageFor(model => model.Name)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.Address)
+    </div>
+    <div class="editor-field">
+        @Html.EditorFor(model => model.Address)
+        @Html.ValidationMessageFor(model => model.Address)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.ContactNo)
+    </div>
+    <div class="editor-field">
+        @Html.EditorFor(model => model.ContactNo)
+        @Html.ValidationMessageFor(model => model.ContactNo)
+    </div>
+
+    <p>
+        <input type="submit" value="Update" />
+
+        &nbsp;
+        <input type="button" id="btnCancel" value="Cancel" class="cancel" />
+    </p>
+}
+
+
+

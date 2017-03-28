@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Dialog";
+}
+
+<script>
+    $(document).ready(function () {
+
+        $("#dialog").dialog(
+            {
+                // height: 140,
+//modal: true,
+                autoOpen: false,
+                draggable: false,
+                modal: false,
+            });
+
+        $("#opener").click(function () {
+            $("#dialog").dialog("open");
+        });
+    });
+</script>
+<h2>Dialog</h2>
+
+<div id="dialog" title="Basic dialog">
+
+    <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+
+</div>
+
+<button id="opener">Open Dialog</button>
+
+
+

@@ -1,0 +1,31 @@
+﻿@model MVC_PagingSortingSearching.Models.PagingModel
+@{
+    ViewBag.Title = "Search";
+    var grid = new WebGrid(rowsPerPage: Model.pageSize, ajaxUpdateContainerId: "grid");
+    grid.Bind(Model.User, autoSortAndPage: false, rowCount: Model.TotalRecords);
+}
+<br />
+@using (Html.BeginForm())
+{ 
+    <div>Search : &nbsp;@Html.TextBox("search") &nbsp; &nbsp;<input type="submit" value="Search" /></div>
+}
+<br /><br />
+@grid.GetHtml(htmlAttributes: new { id = "grid", @class = "table" },
+              mode: WebGridPagerModes.All,
+              previousText: "<",
+              firstText: "<<",
+              nextText: ">",
+              lastText: ">>",
+              columns: new[]{
+              grid.Column("UserId",header:"User ID",canSort:false),
+              grid.Column("Name"),
+              grid.Column("Address"),
+              grid.Column("ContactNo"),
+              grid.Column("",header:"Action",format:@<text>
+@Html.ActionLink("Edit","Edit",new{id=item.UserId}) |
+                @Html.ActionLink("Details","Details",new{id=item.UserId}) |
+                @Html.ActionLink("Delete","Delete",new{id=item.UserId})
+</text>)
+              })
+
+
